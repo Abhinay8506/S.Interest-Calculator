@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Interest-container {
+    background-color: white;
+    border: solid 1px white;
+    color: black; 
+    padding: 30px;
+    border-radius: 8px;
+    height: auto;
+    width: 400px;
+  }
+  
+  .heading h1 {
+    background-color: white;
+    color: black;
+  }
+  
+  .subHeading p {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .Result-box {
+    background-color: chartreuse;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .Result-box input {
+    background-color: chartreuse;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    outline:none;
+    font-size: 1.2em;
+   
+    
+  }
+  
+  .Result-box p {
+    background-color: chartreuse;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .Parameter-box {
+    display: grid;
+    grid-gap: 15px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+  .Parameter-box input {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .Footer-btn {
+    background-color: white;
+  }
+  
+  .Footer-btn button {
+    background-color: darkslategray;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 48%;
+  }
+  
+  .Footer-btn button:hover {
+    background-color: slategray;
+  }
+  
+  .Footer-btn button:first-child {
+    margin-right: 4%;
+  }
+  
+  .Footer-btn #reset-btn {
+    background-color: lightgray;
+    color: black;
+  }
+  
+  .Footer-btn #reset-btn:hover {
+    background-color: gray;
+  }
+  
